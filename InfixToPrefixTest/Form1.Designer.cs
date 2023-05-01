@@ -24,8 +24,8 @@ namespace InfixToPrefixTest
         #region Windows Form 設計工具產生的程式碼
 
         /// <summary>
-        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
-        /// 這個方法的內容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -35,17 +35,17 @@ namespace InfixToPrefixTest
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 67);
+            this.textBox1.Location = new System.Drawing.Point(53, 43);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(312, 22);
+            this.textBox1.Size = new System.Drawing.Size(687, 218);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(101, 124);
+            this.label1.Location = new System.Drawing.Point(89, 307);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(33, 12);
             this.label1.TabIndex = 1;
@@ -62,7 +62,6 @@ namespace InfixToPrefixTest
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
